@@ -1,0 +1,23 @@
+{
+  "name": "agent-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "deploy": "node scripts/deploy.js",
+    "verify": "node scripts/verify.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "solc": "^0.8.26"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0"
+  }
+}
